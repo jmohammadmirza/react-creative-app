@@ -4,7 +4,6 @@ import '../css/App.css';
 import AddAppointments from './AddAppointments';
 import SearchAppointments from './SearchAppointments';
 import ListAppointments from './ListAppointments';
-import Footer from './Footer';
 
 import { without } from 'lodash';
 
