@@ -1,0 +1,29 @@
+/**  Basic Page CSS **/
+body {
+  font-weight: 200;
+ 
+}
+
+header a,
+footer a {
+  color: white;
+}
+.App-header {
+  padding-left: 0.5em;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  background-image: radial-gradient(circle farthest-side at center ,#009cde,#003087 125%);
+}
+footer {
+  font-size: 0.8em;
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: #377bb5 !important;
+  border: inherit;
+}
