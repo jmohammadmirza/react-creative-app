@@ -69,7 +69,7 @@ class AddAppointments extends Component {
         </div>
 
         <div className="card-body">
-          <form id="aptForm" noValidate onSubmit={this.handleAdd}>
+          <form id="aptForm"  onSubmit={this.handleAdd}>
                     <div className="form-group form-row">
               <label
                 className="col-md-2 col-form-label text-md-right"
@@ -138,6 +138,7 @@ class AddAppointments extends Component {
                   cols="50"
                   name="comments"
                   id="comments"
+                  required
                   placeholder="Appointment Notes"
                   value={this.state.comments}
                   onChange={this.handleChange}
