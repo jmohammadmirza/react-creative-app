@@ -83,6 +83,7 @@ class AddAppointments extends Component {
                   className="form-control"
                   name="patientName"
                   placeholder="Patient's Name"
+                  required
                   value={this.state.patientName}
                   onChange={this.handleChange}
                 />
@@ -102,6 +103,7 @@ class AddAppointments extends Component {
                   className="form-control"
                   name="appointmentDate"
                   id="appointmentDate"
+                  required
                   value={this.state.appointmentDate}
                   onChange={this.handleChange}
                 />
@@ -119,6 +121,7 @@ class AddAppointments extends Component {
                   name="aptTime"
                   id="aptTime"
                   value={this.state.aptTime}
+                  required
                   onChange={this.handleChange}
                 />
               </div>
