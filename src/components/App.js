@@ -57,7 +57,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://outpatient-api.herokuapp.com/outpatient/fetch')
+  // fetch('https://outpatient-api.herokuapp.com/outpatient/fetch')
+   fetch('./data.json')
     .then(response => response.json())
     .then(result => {
       const apts = result.map(item => {
